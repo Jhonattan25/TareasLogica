@@ -8,6 +8,6 @@ let quantityPercentage = calculateQuantityPercentage(quantity1, percentage1);
 console.log('El', percentage1, '% de', quantity1, 'es:', quantityPercentage);
 
 function calculateQuantityPercentage(quantity, percentage){
-    let result = quantity * (porcentage/100);
+    let result = quantity * (percentage/100);
     return result;
 }
