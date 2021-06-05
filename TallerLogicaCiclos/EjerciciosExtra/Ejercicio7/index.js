@@ -1,19 +1,24 @@
 /*
 7. Escriba un programa que solicite una contraseña (el texto de la contraseña no es importante) y la vuelva a solicitar hasta que las dos contraseñas coincidan.
 */
-verifyPassword();
-function verifyPassword(){
+app();
+
+function app(){
     let flag = false;
-    let passwor1;
-    let passwor2;
+    let password1;
+    let password2;
     while (!flag) {
-        passwor1 =  prompt("Escriba su contraseña");
-        passwor2 = prompt("Escriba de nuevo su contraseña");
-        if (passwor1 === passwor2) {
+        password1 =  prompt("Escriba su contraseña");
+        password2 = prompt("Escriba de nuevo su contraseña");
+        if ( verifyPassword(password1, password2) ) {
             flag = true;
         }else{
             console.log("Las contraseñas no coinciden. Inténtelo de nuevo");
         }
     }
     console.log("Contraseña confirmada. ¡Hasta la vista!");
+}
+
+function verifyPassword(pass1, pass2){
+    return pass1 === pass2;
 }
