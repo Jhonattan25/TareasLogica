@@ -16,4 +16,3 @@ function convertArrayString(array){
 function convertArrayString2(array){
     return array.join(",");
 }
-
