@@ -1,7 +1,6 @@
 /*
     1. Cree un programa que pida al usuario el nombre de un producto existente en una tienda, luego, que le muestre el precio del producto. El usuario debe poder elegir de entre por lo menos cinco productos. Use diccionarios.
 */
-
 let nameProduct = prompt("Ingrese el nombre del producto del cual quiere saber el valor: \n Shampoo \n Crema dental \n Papel higienico \n Cepillo dental \n Desodorante ");
 showProductPrice(nameProduct);
 
