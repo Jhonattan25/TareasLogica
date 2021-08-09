@@ -1,21 +1,21 @@
-// Cree una plantilla de strings para mostrar un mensaje de bienvenida al usuario luego de registrarse en nuestro sitio, por ejemplo. “Bienvenida Paula Pérez a nuestro sitio web, gracias por registrarte”. Este template debe usar dos variables, nombres y apellidos
+//* Cree una plantilla de strings para mostrar un mensaje de bienvenida al usuario luego de registrarse en nuestro sitio, por ejemplo. “Bienvenida Paula Pérez a nuestro sitio web, gracias por registrarte”. Este template debe usar dos variables, nombres y apellidos
 let firstName:string = 'Paula';
 let lastName:string = 'Pérez'; 
 //console.log( `Bienvenida ${firstName} ${lastName} a nuestro sitio web, gracias por registrarte`);
 
-// Una variable array de números que contenga cinco elementos e imprima cada uno de sus elementos.
+//* Una variable array de números que contenga cinco elementos e imprima cada uno de sus elementos.
 let arrayNumbers:number[] = [1, 2, 3, 4, 5];
 for(let i=0; i < arrayNumbers.length; i++){
     //console.log(arrayNumbers[i]);
 }
 
-// Una variable array de strings que contenga cinco elementos e imprima cada uno de sus elementos.
+//* Una variable array de strings que contenga cinco elementos e imprima cada uno de sus elementos.
 let arrayStrings: string[] = ['Vanessa', 'Juan', 'Jhonattan', 'Jose', 'Otoniel'];
 for (let i = 0; i < arrayStrings.length; i++) {
     //console.log(arrayStrings[i]);
 }
 
-// Recorra cada array creado usando for-of e imprimiendo cada uno de sus elementos
+//* Recorra cada array creado usando for-of e imprimiendo cada uno de sus elementos
 for (const number of arrayNumbers) {
     //console.log(number);
 }
@@ -23,7 +23,7 @@ for (const string of arrayStrings) {
     //console.log(string);
 }
 
-//  cómo eliminar elementos de un array, agregar elementos, leer y actualizar elementos.Implemente ejemplos prácticos.
+//* cómo eliminar elementos de un array, agregar elementos, leer y actualizar elementos.Implemente ejemplos prácticos.
 //console.log(arrayNumbers);
 arrayNumbers.push(10);
 //console.log(arrayNumbers);
@@ -32,9 +32,9 @@ arrayNumbers[5] = 9;
 arrayNumbers.pop();
 //console.log(arrayNumbers);
 
-// Una variable tipo objeto cuyos valores sean los días de la semana
-// Una variable tipo objeto cuyos valores sean los números del 0 al 9
-// Recorra cada objeto creado usando for-in e imprimiendo cada uno de sus valores
+//* Una variable tipo objeto cuyos valores sean los días de la semana
+//* Una variable tipo objeto cuyos valores sean los números del 0 al 9
+//* Recorra cada objeto creado usando for-in e imprimiendo cada uno de sus valores
 let daysWeek:any = {
     Monday: 'Lunes',
     Tuesday: 'Martes',
@@ -63,7 +63,7 @@ for (const key in numbers) {
     //console.log(numbers[key]);
 }
 
-// eliminar elementos clave-valor de un objeto, cómo leer y actualizar valores. Implemente ejemplos prácticos.
+//* eliminar elementos clave-valor de un objeto, cómo leer y actualizar valores. Implemente ejemplos prácticos.
 let numbers2:any = {
     zero: 0,
     one: 1,
@@ -77,7 +77,7 @@ numbers2['three']=3;
 numbers2['two']=20;
 //console.log(numbers2);
 
-// Investigue: Ciclos for y while en TypeScript. Implemente ejemplos prácticos.
+//* Investigue: Ciclos for y while en TypeScript. Implemente ejemplos prácticos.
 for (let i = 0; i < 20; i++) {
     if(i % 2 == 0){
        // console.log(i); // Pares
